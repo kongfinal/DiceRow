@@ -41,8 +41,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun resetDice() {
-        val randomInt = 0
-
-        Toast.makeText(this, "button clicked", Toast.LENGTH_SHORT).show()
+        diceImage.setImageResource(R.drawable.empty_dice)
     }
 }
